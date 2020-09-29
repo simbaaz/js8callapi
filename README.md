@@ -22,31 +22,31 @@ Unofficial reference for js8call API
 |OFFSET|Смещение канала, Гц|
 
 ---
-**LOG.QSO**
+**LOG.QSO** - *описание пока не готово*
 |параметр|комментарий|
 | ----------- | ----------- |
 |_ID|id события|
 
 ---
-**RX.ACTIVITY**
+**RX.ACTIVITY** - *описание пока не готово*
 |параметр|комментарий|
 | ----------- | ----------- |
 |_ID|id события|
 
 ---
-**RX.DIRECTED**
+**RX.DIRECTED** - *описание пока не готово*
 |параметр|комментарий|
 | ----------- | ----------- |
 |_ID|id события|
 
 ---
-**RX.DIRECTED.ME**
+**RX.DIRECTED.ME** - *описание пока не готово*
 |параметр|комментарий|
 | ----------- | ----------- |
 |_ID|id события|
 
 ---
-**RX.SPOT**
+**RX.SPOT** - *описание пока не готово*
 |параметр|комментарий|
 | ----------- | ----------- |
 |_ID|id события|
@@ -63,7 +63,7 @@ Unofficial reference for js8call API
 |UTC|метка времени|
 
 ---
-**TX.FRAME**
+**TX.FRAME** - *описание пока не готово*
 |параметр|комментарий|
 | ----------- | ----------- |
 |_ID|id события|
@@ -78,6 +78,12 @@ Unofficial reference for js8call API
 |OFFSET|Смещение канала, Гц|
 |SPEED|Скорость передачи, 0 - Normal, 1 - Fast, 2 - Turbo, 4 - Slow, 8 - Ultra|
 |SELECTED|Позывной выбранного узла|
+
+---
+**CLOSE** - формируется при закрытии приложения
+|параметр|комментарий|
+| ----------- | ----------- |
+|_ID|id события|
 
 ## Команды
 
@@ -148,7 +154,7 @@ Unofficial reference for js8call API
 |_ID|id запроса|
 
 ---
-**STATION.SET_INFO**
+**STATION.SET_INFO** - *описание пока не готово*
 |параметр|комментарий|
 | ----------- | ----------- |
 |_ID|id запроса|
@@ -159,7 +165,7 @@ Unofficial reference for js8call API
 |_ID|id запроса|
 
 ---
-**STATION.GET_STATUS**
+**STATION.GET_STATUS** - *описание пока не готово*
 |параметр|комментарий|
 | ----------- | ----------- |
 |_ID|id запроса|
@@ -170,7 +176,7 @@ Unofficial reference for js8call API
 |_ID|id запроса|
 
 ---
-**STATION.SET_STATUS**
+**STATION.SET_STATUS** - *описание пока не готово*
 |параметр|комментарий|
 | ----------- | ----------- |
 |_ID|id запроса|
@@ -181,7 +187,7 @@ Unofficial reference for js8call API
 |_ID|id запроса|
 
 ---
-**RX.GET_CALL_ACTIVITY**
+**RX.GET_CALL_ACTIVITY** - *описание пока не готово*
 |параметр|комментарий|
 | ----------- | ----------- |
 |_ID|id запроса|
@@ -206,7 +212,7 @@ Unofficial reference for js8call API
 |_ID|id запроса|
 
 ---
-**RX.GET_BAND_ACTIVITY**
+**RX.GET_BAND_ACTIVITY** - *описание пока не готово*
 |параметр|комментарий|
 | ----------- | ----------- |
 |_ID|id запроса|
@@ -296,7 +302,7 @@ Unofficial reference for js8call API
 |SPEED|Скорость передачи, 0 - Normal, 1 - Fast, 2 - Turbo, 4 - Slow, 8 - Ultra|
 
 ---
-**INBOX.GET_MESSAGES**
+**INBOX.GET_MESSAGES** - *описание пока не готово*
 |параметр|комментарий|
 | ----------- | ----------- |
 |_ID|id запроса|
@@ -307,7 +313,7 @@ Unofficial reference for js8call API
 |_ID|id запроса|
 
 ---
-**INBOX.STORE_MESSAGE** - запрос на локальное сохранение сообщения
+**INBOX.STORE_MESSAGE** - запрос на локальное сохранение сообщения для определенного адресата
 |параметр|комментарий|
 | ----------- | ----------- |
 |_ID|id запроса|
