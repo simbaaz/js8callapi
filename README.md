@@ -1,2 +1,2 @@
 # js8callapi
-Unifficial reference for js8call API
+Unofficial reference for js8call API
