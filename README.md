@@ -231,7 +231,7 @@ Unofficial reference for js8call API
 | ----------- | ----------- |
 
 ---
-**RX.GET_BAND_ACTIVITY** - *описание пока не готово*
+**RX.GET_BAND_ACTIVITY** - запрос на получение поканальной информации о текущей активности
 
 **RX.BAND_ACTIVITY** - ответ на команду **RX.GET_BAND_ACTIVITY**
 |параметр|комментарий|
